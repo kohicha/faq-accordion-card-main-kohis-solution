@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="stylesheet" href="output.css">
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | FAQ Accordion Card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+
+  </style>
+</head>
+<body>
+  <main class="grid place-content-center min-h-screen bg-gradient-to-b from-SoftViolet to-SoftBlue font-KumbhSans">
+    <div class="grid grid-flow-row md:grid-flow-col bg-white rounded-3xl max-w-6xl shadow-2xl">
+        <div class="h-48 md:h-[32rem] max-w-lg flex flex-col md:flex-row items-center overflow-visible md:overflow-hidden">
+          <img src="images/illustration-woman-online-desktop.svg" alt="" class=" z-[2] -translate-y-36 -translate-x-0 w-80 md:w-max md:-translate-y-0 md:-translate-x-20">
+          <img src="images/bg-pattern-desktop.svg" alt="" class="-translate-x-[52rem] -translate-y-20 scale-[2] hidden md:block">
+          <img src="images/bg-pattern-mobile.svg" alt="" class="md:hidden scale-125 -translate-y-56">
+          <img src="images/illustration-box-desktop.svg" alt="" class="absolute -translate-x-28 -translate-y-20 md:-translate-x-[6rem] md:translate-y-12 z-[3] overflow-visible scale-75 md:scale-100">
+          </div>
+      
+      <div class="p-16 flex flex-col justify-around max-w-2xl items-center md:items-start">
+        <p class="text-3xl font-bold text-VeryDarkDesaturatedBlue">
+          FAQ
+        </p>
+        <div class="w-[22rem]" >
+          <button class="faq-btn flex py-4 border-b-LightGrayishBlue border-b items-center justify-between text-VeryDarkGrayishBlue w-[22rem]">
+            <span class="faq-question transition-all duration-300 ease-in-out">
+              How many team members can I invite?
+            </span>
+            <span><img src="images/icon-arrow-down.svg" alt="" class="faq-arrowdown transition-all duration-300 ease-in-out"></span>
+          </button>
+            <p class="faq-answer hidden py-4 text-VeryDarkGrayishBlue text-xs">
+              You can invite up to 2 additional users on the Free plan. There is no limit on 
+              team members for the Premium plan.
+            </p>
+
+        </div>
+        <div class="w-[22rem]" >
+          <button class="faq-btn flex py-4 border-b-LightGrayishBlue border-b items-center justify-between text-VeryDarkGrayishBlue w-[22rem] ">
+            <span class="faq-question transition-all duration-300 ease-in-out">
+              What is the maximum file upload size?
+            </span>
+            <span>
+              <img src="images/icon-arrow-down.svg" alt="" class="faq-arrowdown transition-all duration-300 ease-in-out">
+            </span>
+          </button>
+            <p class="faq-answer hidden py-4 text-VeryDarkGrayishBlue text-xs">
+              No more than 2GB. All files in your account must fit your allotted storage space.
+            </p>
+
+        </div>
+        <div class="w-[22rem]" >
+          <button class="faq-btn flex py-4 border-b-LightGrayishBlue border-b items-center justify-between text-VeryDarkGrayishBlue w-[22rem] ">
+            <span class="faq-question transition-all duration-300 ease-in-out">
+              How do I reset my password?
+            </span>
+            <span>
+              <img src="images/icon-arrow-down.svg" alt="" class="faq-arrowdown transition-all duration-300 ease-in-out">
+            </span>
+          </button>
+          <ul>
+            <p class="faq-answer hidden py-4 text-VeryDarkGrayishBlue text-xs">
+              Click “Forgot password” from the login page or “Change password” from your profile page.
+              A reset link will be emailed to you.
+            </p>
+          </ul>
+        </div>
+        <div class="w-[22rem]" >
+          <button class="faq-btn flex py-4 border-b-LightGrayishBlue border-b items-center justify-between text-VeryDarkGrayishBlue w-[22rem] ">
+            <span class="faq-question transition-all duration-300 ease-in-out">
+              Can I cancel my subscription?
+            </span>
+            <span>
+              <img src="images/icon-arrow-down.svg" alt="" class="faq-arrowdown transition-all duration-300 ease-in-out">
+            </span>
+          </button>
+          <ul>
+            <p class="faq-answer hidden py-4 text-VeryDarkGrayishBlue text-xs">
+              Yes! Send us a message and we’ll process your request no questions asked.
+            </p>
+          </ul>
+        </div>
+        <div class="w-[22rem]" >
+          <button class="faq-btn flex py-4 border-b-LightGrayishBlue border-b items-center justify-between text-VeryDarkGrayishBlue w-[22rem] ">
+            <span class="faq-question transition-all duration-300 ease-in-out">
+              Do you provide additional support?
+            </span>
+            <span>
+              <img src="images/icon-arrow-down.svg" alt="" class="faq-arrowdown transition-all duration-300 ease-in-out">
+            </span>
+          </button>
+            <p class="faq-answer hidden py-4 text-VeryDarkGrayishBlue text-xs">
+              Chat and email support is available 24/7. Phone lines are open during normal business hours.
+            </p>
+
+        </div>
+      </div>
+    </div>
+    
+    
+  </main>
+  
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Kohi</a>.
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
